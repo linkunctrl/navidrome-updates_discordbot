@@ -1,8 +1,8 @@
 import subprocess
 import requests
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1504796089184813198/_Qgx3EiDWKwPhpxysTK-TLbWa_7bP42dWRwjQWLcdHGGckGC2wNqQqs2iv4xKGQvkste"
-CONTAINER_NAME = "navidrome"  # run: docker ps | grep navidrome  to confirm
+WEBHOOK_URL = "add your url here"
+CONTAINER_NAME = "navidrome"  
 
 def get_status():
     result = subprocess.run(
